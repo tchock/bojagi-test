@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Box from './components/Box'
 
 const Container = styled.div`
   margin: 2rem;
@@ -8,5 +9,9 @@ const Container = styled.div`
 `
 
 export default function(props) {
-  return <Container>hello world</Container>
+  return (
+    <Container>
+      <Box/>
+    </Container>
+  )
 }
