@@ -8,6 +8,6 @@ const Container = styled.div`
   padding: 2rem;
 `
 
-export default function Box(){
-  return <Container>I am a yellow green Box</Container>
+export default function Box() {
+  return <Container>I am a yellow green Box!!</Container>
 }
