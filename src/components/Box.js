@@ -5,9 +5,9 @@ import styled from 'styled-components'
 const Container = styled.div`
   background-color: yellowgreen;
   width: 30vw;
-  padding: 3rem;
+  padding: 2rem;
 `
 
-export default function Box(){
-  return <Container>I am a yellow green Box</Container>
+export default function Box() {
+  return <Container>I am a yellow green Box!!</Container>
 }
