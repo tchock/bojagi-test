@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  upload:
+    docker:
+      - image: circleci/node:12
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - setup_remote_docker
+      - restore_cache:
+          keys:
+            - yarn-cache-{{ .Branch }}
+            - yarn-cache-master
+      - run:
+          name: install dependencies
+          command: yarn
+      - save_cache:
+          key: yarn-cache-{{ .Branch }}-{{ .BuildNum }}
+          paths:
+            - /home/circleci/.cache/yarn/v1
+      - run:
+          name: bojagi upload
+          command: yarn bojagi deploy
+
+workflows:
+  version: 2
+  bojagi-upload:
+    jobs:
+      - upload
+     
