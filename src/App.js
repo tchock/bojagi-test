@@ -7,7 +7,7 @@ const Container = styled.div`
   padding: 2rem;
   border: 2px solid grey;
 `
-
+// This is the App
 export default function(props) {
   return (
     <Container>
