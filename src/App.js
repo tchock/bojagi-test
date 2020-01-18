@@ -7,7 +7,7 @@ const Container = styled.div`
   padding: 2rem;
   border: 2px solid grey;
 `
-// This is the App component with a box inside...
+// This is the App component with a box inside
 export default function(props) {
   return (
     <Container>
