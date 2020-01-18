@@ -3,11 +3,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-  background-color: yellow;
-  width: 30vw;
+  background-color: ${({ color }) => color};
   padding: 2rem;
 `
 
-export default function Box() {
-  return <Container>I am a yellow green Box!! or am i??</Container>
+export default function Box(props) {
+  return <Container color={props.color} >{props.children}</Container>
 }

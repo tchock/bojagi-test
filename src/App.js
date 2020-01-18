@@ -11,7 +11,8 @@ const Container = styled.div`
 export default function(props) {
   return (
     <Container>
-      <Box/>
+      <Box color="green">green</Box>
+      <Box color="yellow">yellow</Box>
     </Container>
   )
 }
