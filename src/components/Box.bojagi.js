@@ -1,7 +1,5 @@
 import React from 'react';
-import { Box } from './Box';
-
-export default { title: 'Box' };
+import Box from './Box';
 
 export const yellow = () => <Box color="yellow">I am a yellow Box!</Box>;
 
