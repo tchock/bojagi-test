@@ -1,5 +1,6 @@
 import React from 'react';
 import Box from './Box';
+import Button from './Button'
 
 export const yellow = () => <Box color="yellow">I am a yellow Box!</Box>;
 
@@ -11,3 +12,4 @@ export const blue = () => <Box color="blue">Blue.</Box>
 
 export const brown = () => <Box color="brown">Gasp</Box>
 
+export const greenWithYellowButton = () => <Box color="green">green><Button color="yellow">click</Button></Box>
