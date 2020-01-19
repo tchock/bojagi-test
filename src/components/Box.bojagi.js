@@ -12,4 +12,4 @@ export const blue = () => <Box color="blue">Blue.</Box>
 
 export const brown = () => <Box color="brown">Gasp</Box>
 
-export const greenWithYellowButton = () => <Box color="green">green><Button color="yellow">click!</Button></Box>
+export const buttonYellow = () => <Button color="yellow">click!</Button>
