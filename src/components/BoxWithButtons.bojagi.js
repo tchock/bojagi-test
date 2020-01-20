@@ -1,10 +1,4 @@
 import React from 'react';
 import BoxWithButtons from './BoxWithButtons';
 
-export const TrafficLights = () => <BoxWithButtons 
-  color="white" 
-  buttons={[
-    {text: 'stop', color: 'red'},
-    {text: 'ready', color: 'yellow'}, 
-    {text: 'go', color: 'green'}]}
-    />
+export const trafficLights = () => <BoxWithButtons color="white" buttons={[{text: 'stop', color: 'red'},{text: 'ready', color: 'yellow'}, {text: 'go', color: 'green'}]}/>
