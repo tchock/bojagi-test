@@ -1,8 +1,8 @@
+// @component
 import React from 'react'
 import styled from 'styled-components'
 import Box from './Box'
 import Button from './Button'
-
 
 export default function BoxWithButtons(props) {
   return <Box color={props.color}>
