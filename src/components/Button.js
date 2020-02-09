@@ -1,16 +1,15 @@
 // @component
+
 import React from 'react'
 import styled from 'styled-components'
 
-const Container = styled.div`
+const Container = styled.button`
   background-color: ${({ color }) => color};
-  padding: 2rem;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-
+  padding: 0.3rem;
+  margin: 0.3rem;
+  border-radius: 3px;
 `
 
-export default function Box(props) {
+export default function Button(props) {
   return <Container color={props.color} >{props.children}</Container>
 }
