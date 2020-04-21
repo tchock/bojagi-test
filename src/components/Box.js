@@ -8,7 +8,7 @@ const Container = styled.div`
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-
+  color: white;
 `
 
 export default function Box(props) {
