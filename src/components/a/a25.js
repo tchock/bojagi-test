@@ -1,0 +1,1 @@
+// content of a25.js

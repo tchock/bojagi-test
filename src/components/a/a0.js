@@ -1,0 +1,1 @@
+// content of a0.js

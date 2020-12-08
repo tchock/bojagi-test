@@ -1,0 +1,1 @@
+// content of c70.js

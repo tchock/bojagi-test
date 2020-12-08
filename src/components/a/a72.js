@@ -1,0 +1,1 @@
+// content of a72.js

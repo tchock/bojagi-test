@@ -1,0 +1,1 @@
+// content of a32.js
