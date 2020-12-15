@@ -1294,10 +1294,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bojagi/cli@^0.11.3":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.11.3.tgz#35310306c635baffff8fd0f41118904951c6795c"
-  integrity sha512-rkly159vrd7DAzwFTTUWh1fwcPD6l0U0Zhkm0HeFfB3g9K0qKBn+9lyQUhrOVPM1YSf4ibGTAclJ64v9nPgUkQ==
+"@bojagi/cli@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.11.4.tgz#d952a121609f93682e4d83cfe6cab871c6dd7228"
+  integrity sha512-08NoNVY2urpToZytsTOzEMV42blyHwmHjWq/sSDGZpSAzu20GeHVXOEio5ywe+5Oed2CxujbHtqNesRjapCmTw==
   dependencies:
     "@bojagi/types" "^0.9.0"
     adm-zip "^0.4.13"
@@ -1306,7 +1306,6 @@
     commander "4.1.1"
     connect-history-api-fallback "^1.6.0"
     cors "^2.8.5"
-    date-fns "^2.12.0"
     debug "^4.2.0"
     etag "^1.8.1"
     expose-loader "^0.7.5"
@@ -1325,7 +1324,6 @@
     react "^16.13.1"
     rimraf "^2.6.3"
     simple-git "^2.4.0"
-    typescript "^3.7.3"
     webpack "^4.44.2"
     webpack-merge "^5.1.4"
 
@@ -4822,11 +4820,6 @@ data-urls@^2.0.0:
     abab "^2.0.3"
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
-
-date-fns@^2.12.0:
-  version "2.16.1"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.16.1.tgz#05775792c3f3331da812af253e1a935851d3834b"
-  integrity sha512-sAJVKx/FqrLYHAQeN7VpJrPhagZc9R4ImZIWYRFZaaohR3KzmuK88touwsSwSVT8Qcbd4zoDsnGfX4GFB4imyQ==
 
 date-now@^0.1.4:
   version "0.1.4"
@@ -12179,11 +12172,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@^3.7.3:
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
-  integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
 
 uglify-js@3.4.x:
   version "3.4.10"
