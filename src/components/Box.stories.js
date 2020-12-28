@@ -11,4 +11,4 @@ export const red = () => <Box color="red">I am so green! I mean red...</Box>
 
 export const blue = () => <Box color="blue">Blue.</Box>
 
-export const brown = () => <Box color="brown">Gasp</Box>
+export const brown = () => <Box color="brown">Gasp!!</Box>
