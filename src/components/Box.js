@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const Container = styled.div`
   background-color: ${({ color }) => color};
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   color: white;

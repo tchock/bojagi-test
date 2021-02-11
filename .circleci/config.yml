@@ -18,12 +18,12 @@ jobs:
           key: yarn-cache-{{ .Branch }}-{{ .BuildNum }}
           paths:
             - /home/circleci/.cache/yarn/v1
-      - run:
-          name: bojagi upload
-          command: yarn bojagi deploy
       - run: 
           name: bojagi dev upload
           command: BOJAGI_API_URL=https://upload.dev.bojagi.io BOJAGI_SECRET=$DEV_BOJAGI_SECRET yarn bojagi deploy
+      - run:
+          name: bojagi upload
+          command: yarn bojagi deploy
 workflows:
   version: 2
   bojagi-upload:
