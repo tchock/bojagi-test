@@ -7,7 +7,7 @@ const Container = styled.button`
   background-color: ${({ color }) => color};
   padding: 0.3rem;
   margin: 0.3rem;
-  border-radius: 3px;
+  border-radius: 4px;
 `
 
 export default function Button(props) {
