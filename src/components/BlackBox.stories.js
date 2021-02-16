@@ -8,7 +8,8 @@ export const hello = () => {
   const message = useMemo(() => 'YellowHello Shiny Sun', [])
 
   return <BlackBox color="yellow">{message}</BlackBox>
-;
+}
+
 
 export const bye = () => <BlackBox color="green">Bye :(!</BlackBox>
 
