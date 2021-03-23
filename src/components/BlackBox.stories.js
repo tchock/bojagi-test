@@ -3,8 +3,8 @@ import BlackBox from './BlackBox';
 
 export default { title: 'BlackBox' };
 
-export const hello = () => <BlackBox color="yellow">Shiny Sun</BlackBox>;
+export const hello = () => <BlackBox color="yellow">Forked Shiny Sun</BlackBox>;
 
-export const bye = () => <BlackBox color="green">Bye :(!</BlackBox>
+export const bye = () => <BlackBox color="green">Bye Spoon :(!</BlackBox>
 
-export const click = () => <BlackBox color="red">Click Me Good!</BlackBox>
+export const click = () => <BlackBox color="red">Click Me Knife!</BlackBox>
