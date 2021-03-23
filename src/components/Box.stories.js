@@ -5,7 +5,7 @@ export default { title: 'Box' };
 
 export const yellow = () => <Box color="yellow">I am a yellow Box!</Box>;
 
-export const green = () => <Box color="green">I am so green!</Box>
+export const green = () => <Box color="green">I am so greeeeeen!</Box>
 
 export const red = () => <Box color="red">I am so green! I mean red...</Box>
 
