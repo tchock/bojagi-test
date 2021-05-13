@@ -6,7 +6,6 @@ import BoxWithButtons from './components/BoxWithButtons'
 import BlackBox from './components/BlackBox'
 import { yellow } from './components/Box.bojagi'
 
-// something
 
 const Container = styled.div`
   margin: 2rem;
